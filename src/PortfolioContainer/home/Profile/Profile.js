@@ -58,7 +58,7 @@ export default function Profile() {
                     <button className="btn primary-btn" onClick={()=>{ alert('Devlopment In-Progress🛠 Kindly Contact Via Social Platform😊'); }}>
                         Hire Me
                     </button>
-                    <a href="Arun_ProductDevloper.pdf" download='Arun CV.pdf'>
+                    <a href="Arun_Resume.pdf" download='Arun CV.pdf'>
                         <button className="btn highlighted-btn">Get Resume</button>
                     </a>
                 </div>
