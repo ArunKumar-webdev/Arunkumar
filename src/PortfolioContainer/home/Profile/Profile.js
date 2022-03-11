@@ -33,7 +33,6 @@ export default function Profile() {
                         <span className="primary-text">
                             {" "}
                             <h1>
-                                {" "}
                                 <Typical
                                     loop={Infinity}
                                     steps={[
@@ -53,22 +52,21 @@ export default function Profile() {
                             knack of building the front-end operations.
                         </span>
                     </div>
-                </div>
-                <div className="profile-options">
-                    <button className="btn primary-btn" onClick={()=>{ alert('Devlopment In-Progress🛠 Kindly Contact Via Social Platform😊'); }}>
-                        Hire Me
-                    </button>
-                    <a href="Arun_Resume.pdf" download='Arun CV.pdf'>
-                        <button className="btn highlighted-btn">Get Resume</button>
-                    </a>
+
+                    <div className="profile-options">
+                        <button className="btn primary-btn" onClick={() => { alert('Devlopment In-Progress🛠 Kindly Contact Via Social Platform😊'); }}>
+                            Hire Me
+                        </button>
+                        <a href="Arun_Resume.pdf" download='Arun CV.pdf'>
+                            <button className="btn highlighted-btn">Get Resume</button>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div className="profile-picture">
-                <div className="profile-picture-background">
-                </div>
+                <div className="profile-picture-background"></div>
             </div>
         </div>
     )
 }
 
-    
