@@ -1,6 +1,7 @@
 import React from "react";
 import Typical from 'react-typical';
 import './Profile.css';
+import 'animate.css';
 
 export default function Profile() {
     return (
@@ -23,11 +24,8 @@ export default function Profile() {
                             </a>
                         </div>
                     </div>
-                    <div className="profile-details-name">
-                        <span className="primary-text">
-                            {" "}
+                    <div className="profile-details-name animate__animated animate__bounce">
                             Hello, I Am <span className="highlighted-text">ARUN KUMAR</span>
-                        </span>
                     </div>
                     <div className="profile-details-role">
                         <span className="primary-text">
