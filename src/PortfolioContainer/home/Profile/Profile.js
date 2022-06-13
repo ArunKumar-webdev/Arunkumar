@@ -1,11 +1,13 @@
 import React from "react";
 import Typical from "react-typical";
 import "./Profile.css";
+import Footer from "../Footer/Footer";
 import "animate.css";
 
 export default function Profile() {
   return (
-    <div className="profile-container">
+    <div>
+    <div className="container">
       <div className="row">
         <div className="col-sm-6 col-xs-12" style={{ margin: "auto" }}>
           <div className="profile-parent">
@@ -77,6 +79,8 @@ export default function Profile() {
           </div>
         </div>
       </div>
+      </div>
+      <Footer />
     </div>
   );
 }
