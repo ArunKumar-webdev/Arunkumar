@@ -1,24 +1,20 @@
 {
-  "files": {
-    "main.css": "/Portfolio/static/css/main.4505f587.css",
-    "main.js": "/Portfolio/static/js/main.72dceccb.js",
-    "static/js/787.c4e7f8f9.chunk.js": "/Portfolio/static/js/787.c4e7f8f9.chunk.js",
-    "static/media/profilephoto.JPG": "/Portfolio/static/media/profilephoto.00604df8a2b46f3c22a2.JPG",
-    "static/media/Poppins-Thin.ttf": "/Portfolio/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
-    "static/media/Poppins-Light.ttf": "/Portfolio/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
-    "static/media/Poppins-Regular.ttf": "/Portfolio/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
-    "static/media/Poppins-Medium.ttf": "/Portfolio/static/media/Poppins-Medium.9e1bb626874ed49aa343.ttf",
-    "static/media/Poppins-SemiBold.ttf": "/Portfolio/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
-    "static/media/Poppins-Bold.ttf": "/Portfolio/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
-    "static/media/Poppins-ExtraBold.ttf": "/Portfolio/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
-    "static/media/bg.jpg": "/Portfolio/static/media/bg.bc4463345b5c29d17918.jpg",
-    "index.html": "/Portfolio/index.html",
-    "main.4505f587.css.map": "/Portfolio/static/css/main.4505f587.css.map",
-    "main.72dceccb.js.map": "/Portfolio/static/js/main.72dceccb.js.map",
-    "787.c4e7f8f9.chunk.js.map": "/Portfolio/static/js/787.c4e7f8f9.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.4505f587.css",
-    "static/js/main.72dceccb.js"
-  ]
+  "main.css": "/Portfolio/static/css/main.7ceb972a.chunk.css",
+  "main.js": "/Portfolio/static/js/main.f4021447.chunk.js",
+  "main.js.map": "/Portfolio/static/js/main.f4021447.chunk.js.map",
+  "runtime~main.js": "/Portfolio/static/js/runtime~main.61de2c09.js",
+  "runtime~main.js.map": "/Portfolio/static/js/runtime~main.61de2c09.js.map",
+  "static/css/2.29c153ed.chunk.css": "/Portfolio/static/css/2.29c153ed.chunk.css",
+  "static/js/2.01a59af9.chunk.js": "/Portfolio/static/js/2.01a59af9.chunk.js",
+  "static/js/2.01a59af9.chunk.js.map": "/Portfolio/static/js/2.01a59af9.chunk.js.map",
+  "static/js/3.153d6254.chunk.js": "/Portfolio/static/js/3.153d6254.chunk.js",
+  "static/js/3.153d6254.chunk.js.map": "/Portfolio/static/js/3.153d6254.chunk.js.map",
+  "index.html": "/Portfolio/index.html",
+  "precache-manifest.d9c7a2a7864576252687fb0601486c9e.js": "/Portfolio/precache-manifest.d9c7a2a7864576252687fb0601486c9e.js",
+  "service-worker.js": "/Portfolio/service-worker.js",
+  "static/css/2.29c153ed.chunk.css.map": "/Portfolio/static/css/2.29c153ed.chunk.css.map",
+  "static/css/main.7ceb972a.chunk.css.map": "/Portfolio/static/css/main.7ceb972a.chunk.css.map",
+  "static/media/index.css": "/Portfolio/static/media/Poppins-Thin.25cd0f68.ttf",
+  "static/media/Home.css": "/Portfolio/static/media/bg.01f450f6.jpg",
+  "static/media/Profile.css": "/Portfolio/static/media/profilephoto.e40c03c5.JPG"
 }
