@@ -29,7 +29,7 @@ export default function Footer() {
   }, []);
 
   return (
-    <div>
+    <div className="" style={{ position: "fixed", bottom: "0", width: "100%" }}>
       <svg className="wave-top" width="100" viewBox="0 0 1200 250">
         <path
           fillRule="evenodd"
