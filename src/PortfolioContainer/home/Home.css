@@ -10,3 +10,11 @@
   background-image: url("../../assets/Home/bg.jpg");
 }
 
+.vertical-timeline-element-date{
+  color: white !important;
+  padding: 50px !important;
+}
+
+.vertical-timeline::before {
+  height: 90% !important;
+}

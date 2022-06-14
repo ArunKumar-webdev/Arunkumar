@@ -9,13 +9,13 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { useState, useEffect } from "react";
-import Timeline from "./Timeline/Timeline";
+import Skillscard from "./Skillscard/Skillscard";
 
 export default function Home() {
   const [spinner, setSpinner] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => setSpinner(true), 1500);
+    setTimeout(() => setSpinner(true), 100);
   }, []);
 
   return !spinner ? (
@@ -70,14 +70,12 @@ export default function Home() {
           <h4 className="vertical-timeline-element-subtitle">
             Chennai & Banglore, In
           </h4>
-          <p>
             <ul>
               <li>User Interface Design(or) Web design and Development.</li>
               <li>Create a Design layout using Figma and other UI tools.</li>
               <li>Bug Fixes and Performance Tuning.</li>
               <li>Customer interaction and handling support.</li>
             </ul>
-          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -95,7 +93,6 @@ export default function Home() {
         >
           <h3 className="vertical-timeline-element-title">Syncfusion</h3>
           <h4 className="vertical-timeline-element-subtitle">Chennai, In</h4>
-          <p>
             <ul>
               <li>Team management using scrum agile methodology.</li>
               <li>User Interface Design and Development.</li>
@@ -106,7 +103,6 @@ export default function Home() {
                 etc.
               </li>
             </ul>
-          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -127,6 +123,7 @@ export default function Home() {
           <p>Bachelor of Engineering</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
+      <Skillscard />
     </div>
   );
 }

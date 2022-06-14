@@ -7,13 +7,13 @@ import "animate.css";
 export default function Profile() {
   return (
     <div>
-    <div className="container">
+    <div className="container pb-4">
       <div className="row">
         <div className="col-sm-6 col-xs-12" style={{ margin: "auto" }}>
           <div className="profile-parent">
             <div className="profile-details">
-              <div className="colz">
-                <div className="colz-icon">
+              <div className="colz" style={{display:'flex'}}>
+                <div className="colz-icon icon-margin">
                   <a href="https://www.linkedin.com/in/arun-kumar-5a459613a">
                     <i className="fa fa-linkedin-square"></i>
                   </a>
