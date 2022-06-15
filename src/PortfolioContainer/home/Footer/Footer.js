@@ -29,7 +29,7 @@ export default function Footer() {
   }, []);
 
   return (
-    <div className="wavePostion" style={{ width: "100%", zIndex: 100}}>
+    <div className="wavePostion hidefooter" style={{ width: "100%", zIndex: 100}}>
       <svg className="wave-top" width="100" viewBox="0 0 1200 250">
         <path
           fillRule="evenodd"

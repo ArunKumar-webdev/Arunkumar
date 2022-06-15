@@ -28,6 +28,9 @@
 .primary-text {
   color: (--white);
 }
+.styles_typicalWrapper__1_Uvh{
+  font-size: 30px;
+}
 .highlighted-text {
   color: #ff5823;
 }
@@ -78,6 +81,10 @@
   transform: scale(1.5);
 }
 
+.hidefooter{
+  transition: ease-in-out 0.5s;
+}
+
 /*IPAD PRO RESPONSIVENESS*/
 @media only screen and (max-width: 1110px) {
   .profile-picture {
@@ -108,7 +115,7 @@
   }
   .profile-parent {
     flex-direction: column-reverse;
-    margin: 40px 0 0 0;
+    margin: 20px 0 0 0;
   }
   .profile-options {
     display: flex;
