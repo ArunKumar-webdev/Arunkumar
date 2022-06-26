@@ -15,7 +15,7 @@ export default function Home() {
   const [spinner, setSpinner] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => setSpinner(true), 100);
+    setTimeout(() => setSpinner(true), 1500);
   }, []);
 
   return !spinner ? (
