@@ -7,47 +7,58 @@
   min-height: fit-content;
   background-image: url("../../../assets/Home/bg.jpg");
 }
+
 .profile-parent {
   /* display: flex; */
   align-items: center;
   color: aliceblue;
 }
+
 .profile-details-name {
   font-size: 24px;
   font-family: "Poppins SemiBold";
 }
+
 .profile-details-role {
   display: flex;
   flex-direction: column;
   margin: 14px 0 24px 0;
 }
+
 .profile-details-role h1 {
   font-size: 40px;
   font-family: "cursive";
 }
+
 .primary-text {
   color: (--white);
 }
-.styles_typicalWrapper__1_Uvh{
+
+.styles_typicalWrapper__1_Uvh {
   font-size: 30px;
 }
+
 .highlighted-text {
   color: #ff5823;
 }
+
 .profile-role-tagline {
   font-size: 19px;
   margin: 5px 0 0 0;
   font-family: "Poppins Light";
 }
+
 .profile-options .highlighted-btn {
   margin: 0 0 0 28px;
   border-radius: 12px solid white;
 }
+
 .profile-options .highlighted-btn:hover {
   margin: 0 0 0 28px;
   background-color: cornsilk;
   color: #111;
 }
+
 .profile-picture {
   display: flex;
   align-items: center;
@@ -58,6 +69,7 @@
   width: 380px;
   margin: 0 0px 0 100px;
 }
+
 .profile-picture-background {
   height: 92%;
   width: 92%;
@@ -67,6 +79,7 @@
   background-repeat: no-repeat;
   background-position: top;
 }
+
 .profile-picture-background:hover {
   transform: scale(1.07);
   transition: 1s ease-out;
@@ -77,11 +90,12 @@
   padding: 8px;
   padding-left: 0px;
 }
+
 .colz .cols-icon i:hover {
   transform: scale(1.5);
 }
 
-.hidefooter{
+.hidefooter {
   transition: ease-in-out 0.5s;
 }
 
@@ -90,18 +104,22 @@
   .profile-picture {
     margin: 0 0px 0 80px;
   }
+
   .profile-details-name {
     font-size: 20px;
   }
+
   .profile-details-role .primary-text {
     font: 12px;
   }
+
   .profile-options .btn {
     width: 120px;
     padding: 11px 0;
     z-index: 700;
   }
 }
+
 @media only screen and (max-width: 910px) {
   .profile-picture {
     margin: 0 0 0 4px;
@@ -109,24 +127,30 @@
     width: 320px;
   }
 }
+
 @media only screen and (max-width: 810px) {
   .profile-picture {
     margin: auto !important;
   }
+
   .profile-parent {
     flex-direction: column-reverse;
     margin: 20px 0 0 0;
   }
+
   .profile-options {
     display: flex;
     justify-content: space-between;
   }
+
   .proflie-details {
     margin: 25px 0 0;
   }
+
   .profile-options .highlighted-btn {
     margin: 0 !important;
   }
+
   .profile-details-name,
   .profile-details-role {
     text-align: center;
@@ -152,7 +176,18 @@
     width: 275px;
     margin-top: -90px;
   }
+
   .proflie-details {
     width: 95%;
+  }
+}
+
+.wave {
+  display: none;
+}
+
+@media only screen and (min-width: 1000px) {
+  .wave {
+    display: block;
   }
 }

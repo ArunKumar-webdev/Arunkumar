@@ -11,11 +11,11 @@ export default function () {
           <div className="col-md-2">
             <div
               className="highlighted-text skillposition"
-              style={{ fontFamily: "Poppins Light" , fontSize: '3rem' }}
+              style={{ fontFamily: "Poppins Light", fontSize: '3rem' }}
             >
               Skills
             </div>
-            <div style={{ color: "white", width:'20rem' }}>I can say i’m quite good at</div>
+            <div style={{ color: "white", width: '20rem' }}>I can say i’m quite good at</div>
           </div>
         </div>
         <div className="row">
@@ -25,6 +25,45 @@ export default function () {
           >
             <div className="card-header">FrontEnd</div>
             <div className="card-body">
+              <div style={{ display: "flex" }}>
+                <span style={{ width: "20rem", fontFamily: 'Poppins Regular', lineHeight: '30px' }}>JavaScript</span>
+                <Progress
+                  className="pl-3"
+                  percent={90}
+                  theme={{
+                    success: {
+                      symbol: "?‍",
+                      color: "rgb(223, 105, 180)",
+                    },
+                  }}
+                />
+              </div>
+              <div style={{ display: "flex" }}>
+                <span style={{ width: "20rem", fontFamily: 'Poppins Regular', lineHeight: '30px' }}>Next.Js</span>
+                <Progress
+                  className="pl-3"
+                  percent={95}
+                  theme={{
+                    success: {
+                      symbol: "?‍",
+                      color: "rgb(223, 105, 180)",
+                    },
+                  }}
+                />
+              </div>
+              <div style={{ display: "flex" }}>
+                <span style={{ width: "20rem", fontFamily: 'Poppins Regular', lineHeight: '30px' }}>React.Js</span>
+                <Progress
+                  className="pl-3"
+                  percent={95}
+                  theme={{
+                    success: {
+                      symbol: "?‍",
+                      color: "rgb(223, 105, 180)",
+                    },
+                  }}
+                />
+              </div>
               <div style={{ display: "flex" }}>
                 <span style={{ width: "20rem" }}>HTML</span>
                 <Progress
@@ -42,10 +81,10 @@ export default function () {
                 <span style={{ width: "20rem", fontFamily: 'Poppins Regular', lineHeight: '30px' }}>Bootstrap CSS</span>
                 <Progress
                   className="pl-3"
-                  percent={90}
+                  percent={100}
                   theme={{
                     success: {
-                      symbol: "?‍",
+                      symbol: "100%",
                       color: "rgb(223, 105, 180)",
                     },
                   }}
@@ -55,10 +94,10 @@ export default function () {
                 <span style={{ width: "20rem", fontFamily: 'Poppins Regular', lineHeight: '30px' }}>Tailwind CSS</span>
                 <Progress
                   className="pl-3"
-                  percent={90}
+                  percent={100}
                   theme={{
                     success: {
-                      symbol: "?‍",
+                      symbol: "100%",
                       color: "rgb(223, 105, 180)",
                     },
                   }}
@@ -78,36 +117,10 @@ export default function () {
                 />
               </div>
               <div style={{ display: "flex" }}>
-                <span style={{ width: "20rem", fontFamily: 'Poppins Regular', lineHeight: '30px' }}>JavaScript</span>
-                <Progress
-                  className="pl-3"
-                  percent={80}
-                  theme={{
-                    success: {
-                      symbol: "?‍",
-                      color: "rgb(223, 105, 180)",
-                    },
-                  }}
-                />
-              </div>
-              <div style={{ display: "flex" }}>
-                <span style={{ width: "20rem", fontFamily: 'Poppins Regular', lineHeight: '30px' }}>ReactJs</span>
-                <Progress
-                  className="pl-3"
-                  percent={70}
-                  theme={{
-                    success: {
-                      symbol: "?‍",
-                      color: "rgb(223, 105, 180)",
-                    },
-                  }}
-                />
-              </div>
-              <div style={{ display: "flex" }}>
                 <span style={{ width: "20rem", fontFamily: 'Poppins Regular', lineHeight: '30px' }}>TypeScript</span>
                 <Progress
                   className="pl-3"
-                  percent={50}
+                  percent={80}
                   theme={{
                     success: {
                       symbol: "?‍",

@@ -3,7 +3,6 @@ import Typical from "react-typical";
 import "./Profile.css";
 import Footer from "../Footer/Footer";
 import "animate.css";
-import { HideScroll } from "react-hide-on-scroll";
 import AOS from "aos";
 import { useEffect } from "react";
 import "aos/dist/aos.css";
@@ -56,13 +55,13 @@ export default function Profile() {
                       <Typical
                         loop={Infinity}
                         steps={[
-                          "Enthusiastic Dev🐱‍🏍",
+                          "Enthusiastic Dev",
                           1000,
-                          "Product Devloper🎁",
+                          "Next.Js Devloper",
                           1000,
-                          "React.JS Devloper👶",
+                          "React.Js Devloper",
                           1000,
-                          "TypeScript Devloper🧛‍♂️",
+                          "TypeScript Devloper",
                           1000,
                         ]}
                       />
@@ -84,7 +83,7 @@ export default function Profile() {
                   >
                     Hire Me
                   </button>
-                  <a href="Arun_Resume.pdf" download="Arun CV.pdf">
+                  <a href="Arun_FrontEndDevloper_3yrsExp.pdf" download="Arun_FrontEndDevloper_3yrsExp.pdf">
                     <button className="btn highlighted-btn">Get Resume</button>
                   </a>
                 </div>
@@ -98,7 +97,7 @@ export default function Profile() {
           </div>
         </div>
       </div>
-      <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
+      <ScrollAnimation className="wave" animateIn="fadeIn" animateOut="fadeOut">
         <div data-aos="fade-down">
           <Footer />
         </div>

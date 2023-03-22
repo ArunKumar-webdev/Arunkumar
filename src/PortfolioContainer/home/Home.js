@@ -35,27 +35,55 @@ export default function Home() {
       <Profile />
       <div className="container" id="footer">
         <div className="row">
-        <h2 className="col-12"
-          style={{
-            marginTop: "80px",
-          }}
-        >
-          <span
+          <h2 className="col-12"
             style={{
-              color: "white",
-              fontFamily: "Poppins SemiBold",
+              marginTop: "80px",
             }}
           >
-            Work expe<span style={{color:'red'}}>rience & Edu</span>cation
-          </span>
-        </h2>
+            <span
+              style={{
+                color: "white",
+                fontFamily: "Poppins SemiBold",
+              }}
+            >
+              Work expe<span style={{ color: 'red' }}>rience & Edu</span>cation
+            </span>
+          </h2>
         </div>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-            date="May 2022 - Present"
+            date="March 2023 - Present"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={
+              <img
+                style={{ width: "100%", borderRadius: "20px" }}
+                src={
+                  "data:image/jpeg;base64,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"
+                }
+                alt="logo"
+              />
+            }
+          >
+            <h3 className="vertical-timeline-element-title">
+              Northern Lights Technology and Devlopment
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Chennai, In
+            </h4>
+            <ul>
+              <li>Full Stack Web Development.</li>
+              <li>Feature Implementation, Bug Fixes and Performance Tuning.</li>
+              <li>Customer interaction and handling support.</li>
+            </ul>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            date="May 2022 - March 2023"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={
               <img
